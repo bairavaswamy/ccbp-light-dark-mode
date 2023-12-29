@@ -1,0 +1,66 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: 'Roboto';
+}
+.o-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+.bg-white {
+  background-color: #ffffff;
+  border: 1px #000000 solid;
+  border-radius: 15px;
+  min-height: 200px;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-Dark {
+  background-color: #000000;
+  border-radius: 15px;
+  min-height: 200px;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.white {
+  font-size: 35px;
+  color: #000000;
+  margin: 10px 0 10px 0;
+}
+
+.Dark {
+  font-size: 35px;
+  color: #ffffff;
+  margin: 10px 0 10px 0;
+}
+.bwhite {
+  cursor: pointer;
+  min-height: 40px;
+  min-width: 110px;
+  color: #000000;
+  border: 1px #000000 solid;
+  border-radius: 2px;
+}
+
+.bDark {
+  cursor: pointer;
+  min-height: 40px;
+  min-width: 110px;
+  color: #000000;
+  border: 1px #ffffff solid;
+  border-radius: 2px;
+}
